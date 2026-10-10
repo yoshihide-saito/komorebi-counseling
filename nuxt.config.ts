@@ -5,14 +5,15 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'ja' },
-      title: 'こもれび心理相談室｜カウンセリング・精神分析的心理療法・スーパービジョン',
+      title: 'こもれび心理相談室（架空のデモサイト）｜カウンセリング・精神分析的心理療法・スーパービジョン',
       meta: [
         { charset: 'utf-8' },
+        { name: 'robots', content: 'noindex, nofollow' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'こもれび心理相談室は、公認心理師・臨床心理士がお話をうかがう心理相談室です。カウンセリング、精神分析的心理療法、スーパービジョンを行っています。',
+            '【架空のデモサイト】こもれび心理相談室は、公認心理師・臨床心理士がお話をうかがう心理相談室です。カウンセリング、精神分析的心理療法、スーパービジョンを行っています。',
         },
       ],
       link: [

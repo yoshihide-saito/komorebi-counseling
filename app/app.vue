@@ -5,5 +5,6 @@
       <NuxtPage />
     </main>
     <SiteFooter />
+    <DemoNotice />
   </div>
 </template>
